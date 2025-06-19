@@ -1,0 +1,104 @@
+/* Set up basic font and background */
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0;
+  background: #f7f7fa;
+  color: #222;
+}
+
+/* Header styles */
+header {
+  background: #fff;
+  border-bottom: 4px solid #FFC907;
+  padding: 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  padding: 24px 5% 16px 5%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+  margin-right: 18px;
+}
+
+.header-text h1 {
+  font-size: 1.5em;
+  color: #222;
+  margin: 0 0 6px 0;
+  font-weight: bold;
+}
+
+.header-text p {
+  color: #444;
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Hero section styles */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 60px 0;
+  background: #f7f7fa;
+}
+
+/* Hero image container with a simple frame effect */
+.hero-image-container {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 24px 24px 40px 24px;
+  max-width: 700px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+/* Hero image styling */
+.hero-img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 0;
+}
+
+/* Yellow headline over the image */
+.hero-headline {
+  position: absolute;
+  top: 38%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #FFC907;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  pointer-events: none;
+}
+
+/* Donate button styling */
+.donate-btn {
+  display: inline-block;
+  background: #FFC907;
+  color: #222;
+  padding: 14px 40px;
+  border-radius: 28px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-top: 32px;
+  border: none;
+  transition: background 0.2s;
+}
+
+.donate-btn:hover {
+  background: #2E9DF7;
+  color: #fff;
+}
